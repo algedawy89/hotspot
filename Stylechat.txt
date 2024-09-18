@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+  font-family: 'Cairo', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  color: #333;
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h5, p, a, button {
+  margin: 10px 0;
+}
+
+button, .login-input {
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+input[type="radio"] {
+  margin: 10px;
+}
+
+/* Buttons */
+button.app-submit {
+  background-color: #8277d1;
+  color: white;
+  font-weight: bold;
+}
+
+button.app-submit:hover {
+  background-color: #6c5cbf;
+}
+
+button.back {
+  background-color: #e74c3c;
+  color: white;
+}
+
+button.back:hover {
+  background-color: #c0392b;
+}
+
+/* Login Form */
+.login {
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.titles {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.login-field {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.login-icon {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #8277d1;
+}
+
+.login-input {
+  width: 100%;
+  padding: 12px 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.password-field input {
+  background-color: #f1f1f1;
+}
+
+/* Error Message */
+.error-container {
+  display: none;
+}
+
+.error {
+  background-color: #e74c3c;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+/* Social Login Section */
+.social-login {
+  margin-top: 20px;
+}
+
+.contact {
+  font-size: 1rem;
+  color: #333;
+}
+
+a.contact:hover {
+  color: #e74c3c;
+}
+
+.fa-solid {
+  margin-left: 8px;
+}
+
+.downup2 {
+  display: inline-block;
+  margin-top: 10px;
+  font-size: 1.2rem;
+  background-color: #3498db;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.downup2:hover {
+  background-color: #2980b9;
+}
+
+/* Ads Section */
+.ads {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #f1f1f1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.ads h6 {
+  color: #e74c3c;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+/* Responsive Layout */
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+
+  .login-input {
+    font-size: 0.9rem;
+  }
+
+  button.app-submit {
+    font-size: 0.9rem;
+  }
+}
+
+/* Background Shapes */
+.screen-background-shape {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(45deg, #8277d1, #6c5cbf);
+}
+
+.screen-background-shape1 {
+  width: 300px;
+  height: 300px;
+  top: 20%;
+  right: -50px;
+}
+
+.screen-background-shape2 {
+  width: 250px;
+  height: 250px;
+  top: 10%;
+  left: -100px;
+}
+
+.screen-background-shape3 {
+  width: 200px;
+  height: 200px;
+  bottom: 0;
+  right: 0;
+}
+
+.screen-background-shape4 {
+  width: 100px;
+  height: 100px;
+  bottom: 5%;
+  left: 10%;
+}
